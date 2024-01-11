@@ -1,0 +1,62 @@
+.populer2,
+.populer {
+  background-color: #fdf0cc;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.populer2 {
+  background-color: #e5eeee;
+}
+.rank {
+  display: flex;
+  align-items: center;
+}
+.rank div {
+  background-color: #ffffff;
+  color: #4a505c;
+  border-radius: 6px;
+  width: 35px;
+  height: 25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tggl_populer {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4a505c;
+}
+.title_populer {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.author_populer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.authorname {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4a505c;
+}
+@media screen and (max-width: 767px) {
+  .title_populer {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .rank div {
+    width: 30px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/semua.css" />
+    <title>Median</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="page1"><img class="bg" src="assets/bg.png" alt="" /></div>
+
+      <div class="page2">
+        <div class="form">
+          <div class="title">
+            <h1>Login</h1>
+            <p class="sub">Selamat datang kembali!</p>
+          </div>
+          <form>
+            <label for="">Email</label>
+            <input type="text" placeholder="Masukkan Email" />
+            <label for="">Kata Sandi</label>
+            <input type="password" placeholder="Masukkan Kata Sandi" />
+            <div class="regis">
+              <p>Belum Punya Akun? <span>Register</span></p>
+              <p><span>Lupa Password?</span></p>
+            </div>
+            <p class="btn-login" onclick="redirectToPage2()">Login</p>
+            <p class="or">atau</p>
+            <div class="btn-google">
+              <img src="assets/Vector.png" alt="" />
+              <p onclick="redirectToPage2()">Login dengan Google</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      function redirectToPage2() {
+        window.location.href = "page1.html";
+      }
+    </script>
+  </body>
+</html>

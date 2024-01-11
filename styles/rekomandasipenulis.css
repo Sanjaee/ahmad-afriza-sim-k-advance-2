@@ -1,0 +1,29 @@
+.penulis {
+  margin-top: 20px;
+}
+.akun {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoakun {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.infoakun p {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn {
+  margin-top: 20px;
+}
+.btn button {
+  padding: 7px 12px;
+  background-color: white;
+  border: 1px solid #005555;
+  border-radius: 50px;
+  color: #005555;
+  font-weight: 600;
+}

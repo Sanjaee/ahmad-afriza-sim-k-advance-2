@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.kiri {
+  align-items: center;
+  display: flex;
+}
+.logo {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.star {
+  margin-right: -30px;
+  z-index: 3;
+}
+.star:hover {
+  cursor: pointer;
+  color: rgb(21, 21, 21);
+}
+input {
+  border-radius: 50px;
+  height: 30px;
+  border: 2px solid #bdbdbd;
+  width: 240px;
+  padding-left: 34px;
+}
+
+.kanan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.star2 {
+  margin-right: 15px;
+  width: 30px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.kanan button {
+  margin-right: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: none;
+  background-color: #005555;
+  color: white;
+  cursor: pointer;
+}
+.fotoprofile {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.kanan p {
+  margin-right: 5px;
+  font-family: roboto, arial;
+  font-size: 14px;
+  font-weight: 600;
+}
+.star3 {
+  margin-right: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 750px) {
+  .header {
+    display: none;
+  }
+
+  .destop {
+    display: none;
+  }
+  .mobiletitle {
+    margin-bottom: 20px;
+    white-space: nowrap;
+  }
+  .header2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    height: 56px;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  .notifmobile {
+    margin-right: 15px;
+  }
+  .fotoprofile2 {
+    width: 32px;
+    height: 32px;
+    margin-right: 35px;
+  }
+  .bacaanpopuler {
+    order: 1;
+  }
+  .menumobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+  }
+  .menumobile button {
+    padding: 11px;
+    background-color: white;
+    margin-bottom: -70px;
+    margin-right: -50px;
+    border: none;
+    z-index: 2;
+  }
+  input {
+    width: 300px;
+    height: 42px;
+    border-radius: 10px;
+    padding-left: 60px;
+    border-color: #e0e0e0;
+    margin-top: 70px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .header2 {
+    display: none;
+  }
+  .menumobile {
+    display: none;
+  }
+  .mobiletitle {
+    display: none;
+  }
+}
